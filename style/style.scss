@@ -1,0 +1,98 @@
+@font-face {
+    font-family: M Plus Rounded;
+    src: url(../fonts/m-plus-rounded-1c-japanese-800-normal.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #DEDEE1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-color: #212426;
+
+    h1, h2 {
+        font-family: M Plus Rounded;
+    }
+
+    #topNav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: rgba($color: #212426, $alpha: 0.2);
+        backdrop-filter: blur(0.5rem);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+
+        .options {
+            opacity: 1;
+            color: #DEDEE1;
+            margin: 1rem;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    #fakeNav {
+        top: 0;
+        width: 100%;
+        height: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    #main {
+        display: flex;
+        justify-content: center;
+
+        #profile {
+            margin: 0;
+            padding: 0;
+            display: flex;
+
+            #profileLeft {
+                width: 30rem;
+                margin: 1rem;
+
+                #nickname {
+                    margin-bottom: 1rem;
+                }
+
+                #simpleIntro {
+                    margin-bottom: 1rem;
+                }
+
+                #socialList {
+                    margin-bottom: 1rem;
+                    background-color: rgba($color: #fff, $alpha: 0.1);
+                    padding: 0.25rem;
+                    border-radius: 1rem;
+
+                    .socialIcon {
+                        margin-right: 0.25rem;
+                    }
+                }
+            }
+
+            #profileRight {
+                margin: 1rem;
+
+                .avatar {
+                    width: 10rem;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

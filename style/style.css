@@ -1,0 +1,82 @@
+@font-face {
+  font-family: M Plus Rounded;
+  src: url(../fonts/m-plus-rounded-1c-japanese-800-normal.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #DEDEE1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+body {
+  background-color: #212426;
+}
+body h1, body h2 {
+  font-family: M Plus Rounded;
+}
+body #topNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(33, 36, 38, 0.2);
+  -webkit-backdrop-filter: blur(0.5rem);
+          backdrop-filter: blur(0.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+body #topNav .options {
+  opacity: 1;
+  color: #DEDEE1;
+  margin: 1rem;
+}
+body #topNav .options:hover {
+  text-decoration: underline;
+}
+body #fakeNav {
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 3rem;
+}
+body #main {
+  display: flex;
+  justify-content: center;
+}
+body #main #profile {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+body #main #profile #profileLeft {
+  width: 30rem;
+  margin: 1rem;
+}
+body #main #profile #profileLeft #nickname {
+  margin-bottom: 1rem;
+}
+body #main #profile #profileLeft #simpleIntro {
+  margin-bottom: 1rem;
+}
+body #main #profile #profileLeft #socialList {
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.25rem;
+  border-radius: 1rem;
+}
+body #main #profile #profileLeft #socialList .socialIcon {
+  margin-right: 0.25rem;
+}
+body #main #profile #profileRight {
+  margin: 1rem;
+}
+body #main #profile #profileRight .avatar {
+  width: 10rem;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */

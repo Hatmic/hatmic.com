@@ -1,0 +1,17 @@
+@media only screen and (max-width: 720px) {
+    
+    body {
+        #main {
+            display: flex;
+            #profile {
+                margin: 0;
+                padding: 0;
+                display: flex;
+    
+                #profileLeft {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
