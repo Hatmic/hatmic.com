@@ -93,6 +93,7 @@ body #main #project #projectH2 {
 body #main #project #memory .memoryText {
   color: #BCC1C5;
   margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 body #main #friends {
   width: 42rem;
@@ -104,7 +105,7 @@ body #main #friends #friendsH2 {
 }
 body #main #friends #friendsList {
   width: 42rem;
-  overflow: hidden;
+  overflow-x: scroll;
   position: relative;
   display: flex;
   justify-content: left;

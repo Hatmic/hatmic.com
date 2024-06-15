@@ -1,13 +1,17 @@
 @media only screen and (max-width: 720px) {
   body #main {
-    display: flex;
+    width: 100%;
+  }
+  body #main #mainContent {
+    width: 100%;
   }
   body #main #profile {
-    margin: 0;
-    padding: 0;
-    display: flex;
+    width: 100%;
   }
-  body #main #profile #profileLeft {
+  body #main #project {
+    width: 100%;
+  }
+  body #main #friends {
     width: 100%;
   }
 }/*# sourceMappingURL=phone.css.map */

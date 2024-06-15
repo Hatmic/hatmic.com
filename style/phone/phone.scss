@@ -2,15 +2,22 @@
     
     body {
         #main {
-            display: flex;
+            width: 100%;
+
+            #mainContent {
+                width: 100%;
+            }
+
             #profile {
-                margin: 0;
-                padding: 0;
-                display: flex;
-    
-                #profileLeft {
-                    width: 100%;
-                }
+                width: 100%;
+            }
+
+            #project {
+                width: 100%;
+            }
+
+            #friends {
+                width: 100%;
             }
         }
     }

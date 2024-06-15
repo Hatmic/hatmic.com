@@ -110,6 +110,7 @@ body {
                 .memoryText {
                     color: #BCC1C5;
                     margin-bottom: 1rem;
+                    margin-right: 1rem;
                 }
             }
 
@@ -126,7 +127,7 @@ body {
 
             #friendsList {
                 width: 42rem;
-                overflow: hidden;
+                overflow-x: scroll;
                 position: relative;
                 display: flex;
                 justify-content: left;
